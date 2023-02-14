@@ -1,0 +1,5 @@
+# Ignore build files
+/target
+
+# Ignore backup files
+*.backup

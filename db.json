@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Customer",
+    "nr": 200,
+    "br": 150,
+    "columns": [
+      {
+        "name": "id",
+        "indexed": true,
+        "total_values": 200
+      },
+      {
+        "name": "account_no",
+        "total_values": 200
+      },
+      {
+        "name": "name",
+        "indexed": true,
+        "total_values": 150
+      }
+    ],
+    "sortedColumn": {
+      "name": "id",
+      "indexed": true,
+      "total_values": 200
+    }
+  },
+  {
+    "name": "Account",
+    "nr": 400,
+    "br": 380,
+    "columns": [
+      {
+        "name": "id",
+        "indexed": true,
+        "total_values": 400
+      },
+      {
+        "name": "balance",
+        "total_values": 320
+      }
+    ],
+    "sortedColumn": {
+      "name": "id",
+      "indexed": true,
+      "total_values": 400
+    }
+  }
+]
+
